@@ -5,7 +5,7 @@ return {
     config = function()
         require 'nvim-treesitter.configs'.setup {
             -- A list of parser names, or "all" (the five listed parsers should always be installed)
-            ensure_installed = { "javascript", "lua", "css", "typescript", "tsx" },
+            ensure_installed = { "javascript", "lua", "css", "typescript", "tsx", "go", "gomod", "gowork", "gosum", "java", "kotlin", "rust", "ron" },
 
             -- Install parsers synchronously (only applied to `ensure_installed`)
             sync_install = false,
